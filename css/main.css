@@ -1,0 +1,27 @@
+.container {
+	background-color:yellow;
+}
+
+.menu h3 {
+	text-transform: uppercase;
+	color: red;
+}
+
+.menu-items{
+	font-style: italic;
+}
+
+
+.menu h4{
+	display:inline-block;
+	width: 75%;
+	font-size: 12px;
+}
+
+.menu strong{
+	display: inline-block;
+	width: 24%;
+	text-align: right;
+	background-color: pink;
+	
+}
