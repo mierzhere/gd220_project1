@@ -1,16 +1,39 @@
+
+	
 .container {
 	width:320px;
 	background-color: white;
 }
+.header{
+	opacity: .9;
+}
 .header h1{
 	
-	margin: 20px 60px 0 60px;
-	
+	margin: 0px 60px 0 60px;
 	padding-top: 35px;
 	font-family: zapfino;
 	font-size: 30px;
+	color:black;
+	opacity: 1;
 	background-color: #1695B2;
 	text-align: center
+}
+.header h1 a,
+.h1 a{
+	color: black;
+	text-decoration: none;
+}
+.menu h2{
+	font-family: Gill Sans, sans-serif;
+	font-size: 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.menu h3 {
+	text-transform: uppercase;
+	color: #562F26;
+	font-family: Gill sans;
+	font-size: 15px;
 }
 .navigatio{
 	display: inline-block;
@@ -19,50 +42,398 @@
 	text-align: center;
 	background-color: #1695B2;
 }
-.navigation{
+
+.nav_wrap {
+	background:#E6E7E8;
+}
+
+.main_nav {
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.interior,
+.nav{
 	float: left;
 	width:60px;
+	margin: 0;
 	text-align: center;
+	font-family: Gill Sans;
+}
+
+.main_nav li,
+.nav li{
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	background-color: #1695B2;
+	opacity: .7;
+	font-family: Gill Sans, sans-serif;
+	font-size: 16px;
 }
-.navigation li{
-	margin-top: 10px;
-	padding-top: 10px;
+
+.main_nav li.is_active{
+	opacity: 1;
+	font-weight: 500;
 }
-.about{
-	float: left;
-	width: 240px;
-	padding: 5px;
+.nav a.is_active{
+	color:black;
+}
+.main_nav a,
+.nav a{
+	color:white;
+	text-decoration: none;
+}
+
+.main_nav a:hover,
+.nav a:hover{
+	color:black;
+}
+
+#main_nav.is_hidden {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	background: transparent;
+	/*
+	background image looks like this:
+	
+	
+	*/
+}
+
+#main_nav.is_hidden ul {
+	width:62px;;
+	height:60px;
+	padding: 0;
+	background: transparent url('../img/menulog.png') center center no-repeat;
+}
+
+#main_nav.is_hidden li {
+	display: none;
+}
+
+.content {
+	position: relative;
+}
+
+#menus.is_active .nav {
+	margin-top: 60px;
+}
+
+.nav2 li{
+	width:60px;
+	text-align:center;
+	font-family: Gill sans;
+	margin-top:0px;
+	float:;
+}
+
+.welcome {
+	display: none;
+}
+
+#img img {
+	display: none;
+}
+
+#img img:first-child {
+	display: block;
+}
+
+#about{
+	float:right;
+	width: 230px;
+	padding: 10px 20px 1px 10px;
 	background: #E6E7E8;
+	font-family: Gill Sans;
+	font-size: 14px;
+	color:#562F26;
+	line-height: 1.3;
+	text-align:justify;
 }
-.menu h3 {
-	text-transform: uppercase;
-	color: brown;
+#location{
+	float:right;
+	width: 220px;
+	padding: 10px 30px 20px 10px;
+	background: #E6E7E8;
+	font-family: Gill Sans;
+	font-size: 14px;
+	display: inline-block;
+	color:#562F26;
+	line-height: 1.3;
+	text-align:justify;
+}
+#location,
+#location p{
+	text-align: center;
+	text-decoration: none;
+}
+#location a{
+	text-decoration: none;
+	font-family: Gill Sans;
+}
+#location img{
+	max-width: 100%;
+}
+.info{
+	margin-left: 20px;
+	width: 70%;
+	
+}
+#photos{
+	text-align: left;
+	padding: 0px 30px 0px 60px;
+}
+
+#dinner,
+#dessert,
+#wine,
+#cocktails,
+#beer {
+	float: left;
+	margin-left: 60px;
+}
+.menu-section{
+	float: left;
+	padding: 9px 6px 10px 10px;
+	background-color:#E6E7E8;
+	width: 244px
 }
 
 .menu-items{
 	font-style: italic;
 }
 
+.menu-items li{
+	line-height: px;
+}
 
 .menu h4{
 	display:inline-block;
-	width: 75%;
+	width: 86%;
 	font-size: 12px;
+	line-height: 14px;
 	text-transform: lowercase;
 }
 
 .menu strong{
 	display: inline-block;
-	width: 24%;
+	width: 10%;
+	font-style: italic;
 	text-align: right;
-	background-color: pink;
+	background-color: ;
+	
+}
+.hours {
+	float: left;
+	padding:7px 3px 3px 60px;
+	width: 70%;
+	background-color: white;
+}
+.hours strong{
+	background-color: white;
+	display:inline-block;
+	width: 50%;
+	text-align: left;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: lowercase;
+}
+.hours h4{
+	background-color: white;
+	display: inline-block;
+	font-family: Gill Sans, sans-serif;
+	font-size: 13px;
+	width: 47%;
+	padding-left: px;
 	
 }
 
+.hours h5{
+	display:inline-block;
+	width: 50%;
+	text-align: left;
+	font-family: Gill sans, sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: lowercase;
+}
+.address{
+	text-align: center;
+}
+.address strong{
+	display: inline-block;
+	padding-left:10px;
+}
+strong{
+	font-size: 12px;
+	background-color: ;
+	font-family: Gill Sans;
+}
 
-@media screen and (max-width:700px){
-	body{
-		.sub{display:none}
+
+@media screen and (min-width:700px){
+	.container {
+		width: 960px;
+		margin: 0 auto;
+		overflow: hidden;
 	}
+	
+	.header {
+		background-color:#1695B2;
+		float: left; 
+		opacity: .9;
+		width: 200px;
+	}
+	.header h1{
+		margin-left: 0px;
+		margin-right: 200px;
+		padding-left:20px;
+		padding-top: 35px;
+		font-family: zapfino;
+		font-size: 30px;
+		text-align: center
+	}
+	
+	.navigationmenu li:first-child {
+		display: none;
+	}
+	
+	.welcome{
+		display: block;
+		width: 850px;
+		padding: 0px 20px 1px 50px;
+		background: #E6E7E8;
+	}
+	.welcome h2{
+	padding: 1px 10px 7px 280px;
+	font-family: Gill Sans, sans-serif;
+	font-size: 20px;
+	text-align: left;
+	text-transform: uppercase;
+	}
+	.welcome h3 {
+	width: 650px;
+	padding: 0px 0px 5px 190px;
+	text-transform: lowercase;
+	color: #562F26;
+	font-family: Gill sans;
+	font-size: 14px;
+	line-height: 20px;
+	text-align:justify;
+}
+
+
+	.content {
+		float: left;
+		width: 100%;
+		background-color: #E6E7E8;
+	}
+	
+	
+	.nav_wrap {
+		float: left;
+		width: 200px;
+	}
+	.nav{
+		width: 200px;
+	}
+	
+	#img{
+		width: 1000px;
+		margin-top: 20px;
+		padding: 20px 10px 10px 0px;
+		background-color: white;
+	}
+	#img img,
+	#img img:first-child {
+		display: inline;
+	}
+	#about{
+		float:left;
+	}
+	.main_nav {
+		float: left;
+		width: 200px;
+	}
+	.main_nav li,
+	.nav li{
+		opacity: .7;
+}
+	.lunch{
+		float:left;
+	}
+	#lunch {
+		margin-left: 60px;
+	}
+	#dessert {
+		margin-left: 260px
+	}
+	#beer{
+		margin-left: 260px;
+	}
+	.dinner {}
+	
+	.menu-sections {
+		float: left;
+		width: 750px;
+	}
+	#location{
+		float:left;
+		width: 720px;
+	}
+	#location .info {
+		float: left;
+		width: 220px;
+		
+	}
+	#location img {
+		float: center;
+		width: 300px;
+	}
+	#location2{
+		float:right;
+		}
+	#photos{
+		padding-bottom: 30px;
+		width: 700px;
+		float: right;
+	}
+	
+	.hours {
+		float: left;
+		display: block;
+		width:100%;
+		padding-top: 20px;
+		padding-bottom: 5px;
+		padding-left:108px;
+		line-height: 3px;
+		background-color:;	
+}	
+	#hours div {
+		float: left;
+		width: 300px;
+		margin-left: 60px;
+	}
+
+	.address{
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 13px;
+	width: 100%;
+	float: left;
+		text-align: center;
+}
+	.address strong{
+		display: inline-block;
+		padding-left:10px;
+}
+strong{
+	font-size: 12px;
+	background-color: ;
+	font-family: Gill Sans;
 }
